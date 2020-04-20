@@ -6,6 +6,6 @@ function init(){
 	button.addEventListener('click' , function(){
 		output.innerHTML = input.value;
 		alert("David Portales: " + input.value)
-	)};
+	});
 }
 window.addEventListener('load', init);
